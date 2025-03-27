@@ -26,7 +26,7 @@ graph_config = {
 }
 
 # Button to start the scraping process
-if st.button("Scrape"):
+if st.button("Research"):
     if source_url and api_key:
         # Create the SmartScraperGraph instance
         smart_scraper_graph = SmartScraperGraph(
@@ -49,5 +49,5 @@ st.markdown("""
 
 1. Enter the source URL from which you want to extract the information.
 2. Enter your OpenAI API key.
-3. Click on the "Scrape" button to start the scraping process.
+3. Click on the "Research" button to start the scraping process.
 """)
